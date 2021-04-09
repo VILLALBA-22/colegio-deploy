@@ -20,7 +20,7 @@ Este sitio web educativo utiliza las siguientes tecnologías:
 - [HTML] - Utilizado en el desarrollo web parta crear el contenido y la estructura de la página web-
 - [CSS] - awesome web-based text editor
 - [JavaScript] - Lenguaje de programación ligero, interpretado, o compilado.
--
+
 
 ## Realizado por:
 - [david-avellaneda-git]
