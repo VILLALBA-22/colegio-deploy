@@ -28,7 +28,7 @@ Este sitio web educativo utiliza las siguientes tecnologías:
 
 
   [HTML]:<https://lenguajehtml.com/>
- [CSS]:<https://developer.mozilla.org/es/docs/Web/CSS>
-   [JavaScript]:<https://developer.mozilla.org/es/docs/Web/JavaScript>
-   [david-avellaneda-git]:<https://github.com/david-avellaneda-git>
-   [VILLALBA-22]:<https://github.com/VILLALBA-22>
+  [CSS]:<https://developer.mozilla.org/es/docs/Web/CSS>
+  [JavaScript]:<https://developer.mozilla.org/es/docs/Web/JavaScript>
+  [david-avellaneda-git]:<https://github.com/david-avellaneda-git>
+  [VILLALBA-22]:<https://github.com/VILLALBA-22>
