@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | G.M.G.F</title>
     <link rel="stylesheet" href="../CSS/mobile.css">
+    <link rel="stylesheet" href="../CSS/tablet.css" media="(min-width:657px;)">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap" rel="stylesheet">
@@ -13,9 +14,69 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <header>
-    
+    <nav>
+        <div class="logo">
+            <img src="../assetsMobile/image/svg/logoHeader.svg" alt="Logo del colegio Gimnasio Moderno Generación del Futuro."><p>G.M.G.F</p>
+        </div>
+        <div class="menu">
+            <a href="">Inicio</a>
+            <a href="">Nosotros</a>
+            <a href="">Formación básica</a>
+            <a href="">Galería</a>
+            <a href="">Contáctanos</a>
+        </div>
+        <div class="hamburguesa" >
+            <img src="../assetsMobile/icons/menu.svg" alt="Icono de menú." id="hamburguesa">
+        </div>   
+    </nav>
 </header>
 <body>
+    <section class="section1">
+        <div class="section1-title">
+            <h2>Gimnasio Moderno Generación del Futuro</h2>
+        </div>
+        <div class="section1-containerImages">
+            <div class="container-images">
+                <figure>
+                    <img src="../assetsMobile/image/jpg/img1.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="../assetsMobile/image/jpg/img2.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="../assetsMobile/image/jpg/img3.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="../assetsMobile/image/jpg/img4.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="../assetsMobile/image/jpg/img5.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="../assetsMobile/image/jpg/img6.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="../assetsMobile/image/jpg/img7.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="../assetsMobile/image/jpg/img8.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="../assetsMobile/image/jpg/img9.jpg" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
     <section class="section2">
         <div class="section2-educationL">
             <h3 class="section2-educationL_title">Niveles educativos:</h3>
@@ -25,11 +86,11 @@
                 <li>Bachillerato</li>
                 <li>Básica y media</li>
             </ul>
-            <img src="../assetsMobile/image/graduationCap.svg" alt="Gorro de graduacion" class="section2-educationlevels_graduation" >
+            <img src="../assetsMobile/image/svg/graduationCap.svg" alt="Gorro de graduacion" class="section2-educationlevels_graduation" >
         </div>
         <div class="section2-emphasis">
             <h3 class="section2-emphasis_title">Enfasis en gestión empresarial</h3>
-            <img src="../assetsMobile/image/man.svg" alt="Empresario" class="section2-emphasis_man">
+            <img src="../assetsMobile/image/svg/man.svg" alt="Empresario" class="section2-emphasis_man">
         </div>
         <div class="section2-values">
             <h3 class="section2-values_title">Valores</h3>
@@ -41,13 +102,13 @@
                 <li>Humildad</li>
                 <li>Honestidad</li>
             </ul>
-            <img src="../assetsMobile/image/hands.svg" alt="Aoreton de manos (Compromiso)" class="section2-values_hands" >
+            <img src="../assetsMobile/image/svg/hands.svg" alt="Apreton de manos (Compromiso)" class="section2-values_hands" >
         </div>
     </section>
     <section class="section3">
         <div class="section3-text">
             <h3 class="section3-text_title">
-                <img src="../assetsMobile/image/woman.svg" alt="Incono de la fundadora" class="section3-text_icon" width="20px" height="15px">
+                <img src="../assetsMobile/image/svg/woman.svg" alt="Icono de la fundadora" class="section3-text_icon" width="20px" height="15px">
                 Nuestra Fundadora</h3>
             <p class="section3-text_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quasi aut, est quod ratione ullam at soluta omnis illo. Totam vel, fugiat labore omnis at alias amet quod itaque consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium excepturi fugiat nam, dignissimos expedita ducimus distinctio odit facilis magnam inventore.</p>
             <!--Mientras tenemos la foto-->
@@ -86,5 +147,6 @@
     <div class="footer-right">
         <p>©2021 Mirai, All Rights Reserved. </p>
     </div>
+    <script src="../JS/main.js"></script>
 </body>
 </html>
