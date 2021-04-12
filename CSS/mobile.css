@@ -372,9 +372,13 @@ label #btn, label #cancel{
     padding-inline-start: 4rem;
     padding-block-end: 2rem;
 }
+.section4-container-image{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
 .section4-content img{
-    position: relative;
-    left:calc(50% - 45%);
+    width: 80%;
 }
 
 /* Styles pre_footer */
