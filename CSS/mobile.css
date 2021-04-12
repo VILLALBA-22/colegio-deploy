@@ -24,12 +24,13 @@ font-family: 'DM Sans', sans-serif;  Contenido general.
 font-family: 'Roboto', sans-serif;   Titulos.
 */
 
-/* Estilos del header. */
+/*  Header style. */
 header nav ul{
     list-style: none;
 }
 header nav ul a{
     text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
 }
 header{
     width: 100%;
@@ -120,7 +121,7 @@ label #btn, label #cancel{
     }
     nav ul li{
         display: block;
-        margin:2.5rem
+        margin:2rem
     }
     nav img{
         left:8%;
@@ -237,6 +238,8 @@ label #btn, label #cancel{
         transform: rotateY(360deg);
     }
 }
+
+/* Styles section 2. */
 .section2{
     background: var(--black);
     display: flex;
@@ -285,6 +288,10 @@ label #btn, label #cancel{
     font-family: 'DM Sans', sans-serif; ;
 }
 
+<<<<<<< HEAD
+=======
+/* Styles section 3. */
+>>>>>>> aebf2ddef5a9c46fd6412b036c84aaaa961099fd
 .section3{
     font-size: 1.6rem;
     background: var(--light-beige);
@@ -325,12 +332,16 @@ label #btn, label #cancel{
     height: 16rem;
 }
 
+<<<<<<< HEAD
 
 
 .section3-text_p{
     font-family: 'DM Sans', sans-serif; ;
 }
 
+=======
+/* Styles section 4. */
+>>>>>>> aebf2ddef5a9c46fd6412b036c84aaaa961099fd
 .section4{
     width: 100%;
     height: auto;
@@ -375,6 +386,7 @@ label #btn, label #cancel{
     left:calc(50% - 45%);
 }
 
+/* Styles pre_footer */
 .pre_footer{
     font-size: 1.6rem;
     font-family: 'DM Sans', sans-serif; ;
@@ -383,6 +395,8 @@ label #btn, label #cancel{
     padding: 2rem;
     text-align: center;
 }
+
+/* Styles footer. */
 .footer{
     font-size: 1.6rem;
     font-family: 'DM Sans', sans-serif; ;
@@ -405,7 +419,6 @@ label #btn, label #cancel{
 .footer-container_p{
     padding-top: 1rem;
     text-align: center;
-
 }
 .footer-social{
     display: flex;
@@ -430,14 +443,12 @@ label #btn, label #cancel{
     text-align: center;
     border-radius: .5rem;
     box-shadow: 0 .4px 1rem .3rem rgba(0, 0, 0, 0.25);
-
 }
 .footer-social_icons{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     filter: drop-shadow(0 4px 16px rgba(0, 0, 0, 0.25));
-
 }
 .footer-social_icons > img {
     width: 9rem;
