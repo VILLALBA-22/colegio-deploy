@@ -287,6 +287,9 @@ label #btn, label #cancel{
 .section2-educationL_list{
     font-family: 'DM Sans', sans-serif; ;
 }
+.section2-emphasis_man{
+    padding: 2rem;
+}
 
 /* Styles section 3. */
 .section3{
