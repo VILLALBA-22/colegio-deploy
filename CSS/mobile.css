@@ -63,7 +63,6 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    line-height: 8rem;
     margin: 0 1.2rem;
 }
 nav ul li a{
@@ -71,8 +70,7 @@ nav ul li a{
     position: relative;
     color:var(--light-beige);
     font-size: 1.8rem;
-    font-weight:500;
-    padding:0.5rem 0;
+    padding-block-start:2.8rem;
 }
 nav ul li a:before{
     width: 100%;
