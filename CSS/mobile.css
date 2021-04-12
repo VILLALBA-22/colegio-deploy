@@ -100,7 +100,7 @@ label #btn, label #cancel{
 #check{
     display: none;
 }
-@media (max-width:750px){
+@media (max-width:790px){
     .check{
         display: block;
     }
@@ -357,6 +357,7 @@ label #btn, label #cancel{
     font-size: 1.4rem;
 }
 .section4-content{
+    width: 100%;
     height: auto;
     font-size: 1.6rem;
     font-family: 'DM Sans', sans-serif;
@@ -374,7 +375,7 @@ label #btn, label #cancel{
     padding-block-end: 2rem;
 }
 .section4-container-image{
-    width:100%;
+    max-width: 40rem;
     display: flex;
     justify-content: center;
 }
