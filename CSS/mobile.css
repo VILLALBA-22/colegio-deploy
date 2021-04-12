@@ -247,11 +247,15 @@ label #btn, label #cancel{
     color: var(--light-beige);
     font-family: 'Roboto', sans-serif; 
 }
+
+.section2-educationL_title{
+    padding-bottom: 5px;
+}
 .section2 > div {
     background: var(--light-black);
     border-radius: 2rem;
     width: 15rem;
-    height: 22rem;
+    height: 23rem;
     box-shadow: 0 .5rem 1.6rem .5rem rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
@@ -260,6 +264,11 @@ label #btn, label #cancel{
     align-items: center;
     font-size: 1.6rem;
 }
+
+#section2-educationL{
+    height: 27rem;
+}
+
 .section2-educationL_title, .section2-emphasis_title{
     text-align: center;
 }
@@ -268,19 +277,14 @@ label #btn, label #cancel{
 }
 .section2-values_list{
     padding-left: 2.7rem;
+    font-family: 'DM Sans', sans-serif; ;
 }
-.section2-educationlevels_graduation{
-    width: 6.7rem;
-    height: 6.1rem;
+
+
+.section2-educationL_list{
+    font-family: 'DM Sans', sans-serif; ;
 }
-.section2-emphasis_man{
-    width: 7.6rem;
-    height: 9.9rem;
-}
-.section2-values_hands{
-    width: 8.1rem;
-    height: 4.4rem;
-}
+
 .section3{
     font-size: 1.6rem;
     background: var(--light-beige);
@@ -319,6 +323,12 @@ label #btn, label #cancel{
     margin: 2rem 0;
     width: 21rem;
     height: 16rem;
+}
+
+
+
+.section3-text_p{
+    font-family: 'DM Sans', sans-serif; ;
 }
 
 .section4{
@@ -367,7 +377,7 @@ label #btn, label #cancel{
 
 .pre_footer{
     font-size: 1.6rem;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'DM Sans', sans-serif; ;
     font-style: italic;
     background:#dedede;
     padding: 2rem;
@@ -375,7 +385,7 @@ label #btn, label #cancel{
 }
 .footer{
     font-size: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'DM Sans', sans-serif; ;
     background-color: var(--black);
     color: var(--light-beige);
     display: flex;
@@ -385,7 +395,6 @@ label #btn, label #cancel{
     justify-content: space-evenly;
 }
 .footer-container > img {
-    width: 9rem;
     filter: drop-shadow(0 4px 16px rgba(0, 0, 0, 0.85));
 }
 .footer-container{
@@ -414,6 +423,7 @@ label #btn, label #cancel{
 }
 .footer-social_title{
     background: var(--red-main);
+    font-family: 'Roboto', sans-serif; 
     font-weight: 400;
     width: 60%;
     max-width: 26rem;
@@ -433,7 +443,7 @@ label #btn, label #cancel{
     width: 9rem;
 }
 .footer-right{
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'DM Sans', sans-serif; ;
     font-size: 1.6rem;
     color: var(--light-beige);
     background: var(--gray-footer);
