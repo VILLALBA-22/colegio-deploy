@@ -288,10 +288,7 @@ label #btn, label #cancel{
     font-family: 'DM Sans', sans-serif; ;
 }
 
-<<<<<<< HEAD
-=======
 /* Styles section 3. */
->>>>>>> aebf2ddef5a9c46fd6412b036c84aaaa961099fd
 .section3{
     font-size: 1.6rem;
     background: var(--light-beige);
@@ -331,17 +328,11 @@ label #btn, label #cancel{
     width: 21rem;
     height: 16rem;
 }
-
-<<<<<<< HEAD
-
-
 .section3-text_p{
     font-family: 'DM Sans', sans-serif; ;
 }
 
-=======
 /* Styles section 4. */
->>>>>>> aebf2ddef5a9c46fd6412b036c84aaaa961099fd
 .section4{
     width: 100%;
     height: auto;
