@@ -9,7 +9,7 @@ html{
 body{
     background:var(--light-beige);
     list-style: none;
-    text-decoration: none                                                                                                       ;
+    text-decoration: none;
 }
 :root{
     --red-main:#C50C29;
@@ -330,7 +330,8 @@ label #btn, label #cancel{
     height: 16rem;
 }
 .section3-text_p{
-    font-family: 'DM Sans', sans-serif; ;
+    font-family: 'DM Sans', sans-serif; 
+    line-height: 2.5rem;
 }
 
 /* Styles section 4. */
