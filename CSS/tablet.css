@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /* 1rem = 10px */
+}
+:root{
+    --red-main:#C50C29;
+    --light-beige:#FAF8F7;
+    --black:#201E1C;
+    --light-black:#282623;
+    --gray-footer:#383633;
+}
+/*
+font-family: 'DM Sans', sans-serif;  Contenido general.
+font-family: 'Roboto', sans-serif;   Titulos.
+*/
