@@ -368,7 +368,7 @@ label #btn, label #cancel{
     margin-block-start: 2rem;
     padding: 2rem;
     color:var(--light-beige);
-    line-height: 2.8rem;
+    line-height: 2.5rem;
 }
 .section4-content ul{
     padding-inline-start: 4rem;
